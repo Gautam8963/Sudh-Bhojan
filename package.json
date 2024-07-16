@@ -1,7 +1,7 @@
 {
-  "name": "namaste-react",
+  "name": "Foodiehub",
   "version": "1.0.0",
-  "description": "This is Namaste React by  Saini",
+  "description": "This is Online food ordering app",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -13,12 +13,8 @@
     "url": "git+https://github.com/namastedev/namaste-react.git"
   },
   "keywords": [],
-  "author": "Akshay Saini",
+  "author": "Gautam Dhodi",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/namastedev/namaste-react/issues"
-  },
-  "homepage": "https://github.com/namastedev/namaste-react#readme",
   "devDependencies": {
     "@babel/core": "^7.22.9",
     "@babel/preset-env": "^7.22.9",
