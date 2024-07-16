@@ -28,7 +28,7 @@ const Body = () => {
     const json = await data.json();
     const arrayOfCards = json.data.cards;
     const restaurant_list = "restaurant_grid_listing";
-    console.log(json.data)
+    // console.log(json.data)
     // Optional Chaining
     setListOfRestraunt(
       json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants
@@ -78,7 +78,7 @@ const Body = () => {
             onClick={() => {
               // Filter the restraunt cards and update the UI
               // searchText
-              console.log(searchText);
+              // console.log(searchText);
 
               const filteredRestaurant = listOfRestaurants.filter((res) =>
                 res.info.name.toLowerCase().includes(searchText.toLowerCase())

@@ -1,7 +1,7 @@
 {
-  "name": "Foodiehub",
+  "name": "foodie-hub",
   "version": "1.0.0",
-  "description": "This is Online food ordering app",
+  "description": "This is online food ordering app",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
